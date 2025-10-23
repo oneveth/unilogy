@@ -88,7 +88,7 @@ int main(int, char const**)
     
     /*              ЗДЕСЬ ↓ */
     
-    for (int nn = 1; nn<=9; nn+=2)
+    for (int nn = 1; nn<=(gridSize-1); nn+=2)
     {
         for (int i = 0; i < gridSize; i++) {
             for (int j = 0; j < gridSize; j++) {
